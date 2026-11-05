@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+
+# Node
+node_modules/
+dist/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+backend/tests/test_draftly.db
+
+# Editor
+.vscode/
+
+# Build cache and backups
+*.tsbuildinfo
+*.backup.tsx
